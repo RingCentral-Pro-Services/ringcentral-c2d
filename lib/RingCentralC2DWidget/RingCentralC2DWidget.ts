@@ -48,7 +48,7 @@ export class RingCentralC2DWidget extends Emitter implements IWidget {
   private _selfObserver: MutationObserver;
 
   private _enableC2D: boolean = true;
-  private _enableC2SMS: boolean = true;
+  private _enableC2SMS: boolean = false;
 
   private _callBtn: HTMLElement;
   private _smsBtn: HTMLElement;
